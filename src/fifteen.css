@@ -1,0 +1,103 @@
+.five {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    height: 100%;
+    /* background-image: url('https://www.apple.com/v/iphone-15/b/images/overview/welcome/hero_endframe__e0ajd2ayxqc2_large.jpg'); */
+}
+
+.five img {
+    margin-top: 150px;
+    background-color: white;
+    width: 100%;
+    margin-top: 220px;
+}
+
+.five p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 16%;
+    left: 50%;
+    font-size: 22px;
+    width: 70%;
+    font-weight: 500;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(19, 19, 19);
+}
+
+
+.linkmore {
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    /* width: 80%;  */
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 549;
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    color: rgb(39, 143, 241);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+
+
+}
+
+.linkbuy {
+    position: absolute;
+    top: 16%;
+    /* Adjust the vertical position as needed */
+    left: 50%;
+    /* Adjust the horizontal position as needed */
+    transform: translate(-50%, -50%);
+    /* Center the text both horizontally and vertically */
+    color: white;
+    /* width: 80%; */
+    font-size: 18px;
+    margin-left: 50px;
+    /* background-color: rgba(0, 0, 0, 0.5); Background color with transparency */
+    padding: 15px;
+    margin-top: 80px;
+    /* margin-left: 10px; */
+    font-weight: 549;
+    text-decoration: none;
+    color: rgb(39, 143, 241);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+    /* Ensure the text appears above the image */
+}
+
+.linkbuy:hover {
+    text-decoration: underline;
+}
+
+.linkmore:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .linkmore {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 70px;
+        background-color: none;
+        left: 42%
+    }
+
+    .linkbuy {
+        font-size: 15px;
+        margin-left: 60px;
+        margin-top: 70px;
+        background-color: none;
+    }
+
+    .five p {
+        font-size: 18px;
+    }
+
+    .five img {
+        margin-top: 150px;
+    }
+}

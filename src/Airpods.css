@@ -1,0 +1,134 @@
+.air {
+    background-color: black;
+    padding-top: 50px;
+    position: relative;
+    display: inline;
+    width: 48%;
+    margin-top: 0px;
+    margin: 5px;
+    align-items: center;
+text-align: center;
+}
+
+.air img {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+}
+.pi{
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 549;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+/* .collect{
+
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    left: 50%;
+    background-color: red;  
+    transform: translate(-50%, -50%); 
+} */
+.yes{
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.li {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /* width: 80%;  */
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 549;
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    color: rgb(39, 143, 241);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+
+
+}
+.lin {
+    position: absolute;
+    top: 15%;
+    /* Adjust the vertical position as needed */
+    left: 50%;
+    /* Adjust the horizontal position as needed */
+    transform: translate(-50%, -50%);
+    /* Center the text both horizontally and vertically */
+    color: white;
+    /* width: 80%; */
+    font-size: 15px;
+    margin-left: 50px;
+    /* background-color: rgba(0, 0, 0, 0.5); Background color with transparency */
+    padding: 15px;
+    margin-top: 80px;
+    /* margin-left: 10px; */
+    font-weight: 549;
+    text-decoration: none;
+    color: rgb(39, 143, 241);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+    /* Ensure the text appears above the image */
+}
+
+.li:hover {
+    text-decoration: underline;
+}
+
+.lin:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .li {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 80px;
+        background-color: none;
+        left: 42%;
+        width: 80%;
+    }
+
+    .lin {
+        font-size: 15px;
+        margin-left: 60px;
+        margin-top: 80px;
+        width: 80%;
+        background-color: none;
+    }
+    .air{
+        width: 100%;
+    }
+    .pi {
+        font-size: 18px;
+
+    }
+    .yes{
+        font-size: 15px;
+    }
+
+.air img {
+        margin-top: 20px;
+    }
+}
